@@ -81,21 +81,18 @@ function maybePushSensorAlert() {
   const already = alertState.some(
     (a) => a.source === hot.id && Date.now() - new Date(a.timestamp).getTime() < 60_000
   );
-  if (already) return;
-  alertState = [
-    {
-      id: generateId('ALT'),
-      title: `${hot.name} outside band`,
-      message: `Live reading ${hot.value} ${hot.unit} (band ${hot.minThreshold}–${hot.maxThreshold}). Simulated IoT stream.`,
-      severity: 'warning',
-      category: 'temperature',
-      timestamp: new Date().toISOString(),
-      isRead: false,
-      actionUrl: '/sensors',
-      source: hot.id,
-    },
-    ...alertState,
-  ].slice(0, 40);
+  const newAlert: Alert = {
+    id: generateId('ALT'),
+    title: `${hot.name} outside band`,
+    message: `Live reading ${hot.value} ${hot.unit} (band ${hot.minThreshold}–${hot.maxThreshold}). Simulated IoT stream.`,
+    severity: 'warning',
+    category: 'temperature',
+    timestamp: new Date().toISOString(),
+    isRead: false,
+    actionUrl: '/sensors',
+    source: hot.id,
+  };
+  alertState = [newAlert, ...alertState].slice(0, 40);
 }
 
 function suggestAction(item: InventoryItem): SuggestedAction {
