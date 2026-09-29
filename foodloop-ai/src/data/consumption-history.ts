@@ -38,9 +38,9 @@ function generateConsumptionData(): ConsumptionHistory[] {
     const isReduced = reducedDays.has(i);
 
     // Base values with weekend/holiday reductions
-    let breakfastBase = isWeekend ? 165 : isReduced ? 145 : 200;
-    let lunchBase = isWeekend ? 220 : isReduced ? 190 : 275;
-    let dinnerBase = isWeekend ? 195 : isReduced ? 170 : 240;
+    const breakfastBase = isWeekend ? 165 : isReduced ? 145 : 200;
+    const lunchBase = isWeekend ? 220 : isReduced ? 190 : 275;
+    const dinnerBase = isWeekend ? 195 : isReduced ? 170 : 240;
 
     const breakfast = seededValue(breakfastBase, 25, i * 3 + 1);
     const lunch = seededValue(lunchBase, 35, i * 3 + 2);

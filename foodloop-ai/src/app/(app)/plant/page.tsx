@@ -4,7 +4,7 @@ import { ChartCard, KpiCard, PageHeader, RoleGuard, StatusBadge } from '@/compon
 import { mockApi } from '@/lib/mock-api';
 import { useQuery } from '@tanstack/react-query';
 import { Activity, Gauge, Timer, Zap } from 'lucide-react';
-import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 export default function PlantPage() {
   const machines = useQuery({ queryKey: ['machines'], queryFn: () => mockApi.getMachines() });

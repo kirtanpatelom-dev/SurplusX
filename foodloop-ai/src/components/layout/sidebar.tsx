@@ -24,6 +24,7 @@ import {
 import { NAV_ITEMS, NAV_TRANSLATIONS } from '@/lib/constants';
 import { useRoleStore } from '@/store/role-store';
 import { useSettingsStore } from '@/store/settings-store';
+import type { UserRole } from '@/types';
 
 /**
  * Icon lookup – maps the icon name strings from NAV_ITEMS to actual
@@ -53,7 +54,7 @@ export function Sidebar() {
 
   // Filter navigation items to only those accessible by the current role
   const visibleItems = NAV_ITEMS.filter((item) =>
-    item.roles.includes(currentRole)
+    (item.roles as readonly UserRole[]).includes(currentRole)
   );
 
   // Resolve a translated label for the current language, fallback to English

@@ -40,13 +40,13 @@ function clone<T>(value: T): T {
   return structuredClone(value);
 }
 
-let inventoryState = clone(inventoryItems);
+const inventoryState = clone(inventoryItems);
 let surplusState = clone(surplusListings);
 let sensorState = clone(sensors);
 let alertState = clone(alerts);
 let inefficiencyState = clone(inefficiencySeed);
 let qualityState = clone(qualityInspections);
-let routeState = clone(routeSeed);
+const routeState = clone(routeSeed);
 let driverTaskState = clone(driverTaskSeed);
 let ngoCapacityKg = 300;
 let ngoPreferred: Receiver['preferredFoodTypes'] = ['grains', 'vegetables', 'prepared'];
@@ -87,8 +87,8 @@ function maybePushSensorAlert() {
       id: generateId('ALT'),
       title: `${hot.name} outside band`,
       message: `Live reading ${hot.value} ${hot.unit} (band ${hot.minThreshold}–${hot.maxThreshold}). Simulated IoT stream.`,
-      severity: 'warning',
-      category: 'temperature',
+      severity: 'warning' as const,
+      category: 'temperature' as const,
       timestamp: new Date().toISOString(),
       isRead: false,
       actionUrl: '/sensors',
@@ -125,7 +125,6 @@ export const mockApi = {
     const prev = consumptionHistory.slice(-14, -7);
     const wasteNow = last.reduce((s, d) => s + d.waste, 0);
     const wastePrev = prev.reduce((s, d) => s + d.waste, 0);
-    const savedNow = last.reduce((s, d) => s + Math.max(0, d.total * 0.12 - d.waste), 0);
     return {
       wastePreventedKg: 18420,
       mealsRedistributed: 36840,

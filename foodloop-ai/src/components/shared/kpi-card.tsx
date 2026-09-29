@@ -1,6 +1,6 @@
 'use client';
 
-import { cn, formatNumber, getTrendLabel } from '@/lib/utils';
+import { cn, getTrendLabel } from '@/lib/utils';
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
 import { motion } from 'framer-motion';
 

@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className="min-h-full flex flex-col">
         <Providers>
-          <TooltipProvider delayDuration={300}>
+          <TooltipProvider delay={300}>
             {children}
           </TooltipProvider>
         </Providers>
