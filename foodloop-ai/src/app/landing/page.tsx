@@ -51,7 +51,7 @@ export default function LandingPage() {
             <span className="rounded-lg bg-primary p-2">
               <Leaf className="h-5 w-5 text-primary-foreground" aria-hidden />
             </span>
-            <span className="text-lg font-bold">FoodLoop AI</span>
+            <span className="text-lg font-bold">SurplusX</span>
           </div>
           <nav className="flex items-center gap-2">
             <Link href="/login" className={cn(buttonVariants({ variant: 'ghost' }))}>
@@ -72,7 +72,7 @@ export default function LandingPage() {
               Stop surplus at the steam table. Feed the city instead.
             </h1>
             <p className="mt-4 text-lg text-muted-foreground">
-              FoodLoop AI helps hostels, cafeterias, caterers, and food plants in Gujarat predict demand, catch spoilage risk, and move safe surplus to NGOs before it is dumped.
+              SurplusX helps hostels, cafeterias, caterers, and food plants in Gujarat predict demand, catch spoilage risk, and move safe surplus to NGOs before it is dumped.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href="/login" className={cn(buttonVariants({ size: 'lg' }), 'gap-2')}>

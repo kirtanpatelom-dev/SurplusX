@@ -1,7 +1,7 @@
 import { InventoryItem } from '@/types';
 
 /**
- * Mock inventory data for FoodLoop AI
+ * Mock inventory data for SurplusX
  * 48 items covering Indian food categories: grains, dairy, vegetables, fruits,
  * spices, packaged, prepared, and beverages.
  * Date reference: late September 2026

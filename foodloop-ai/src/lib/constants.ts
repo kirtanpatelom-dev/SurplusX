@@ -1,4 +1,4 @@
-export const APP_NAME = 'FoodLoop AI';
+export const APP_NAME = 'SurplusX';
 export const APP_DESCRIPTION = 'AI-powered Smart Food Waste Management & Redistribution Platform';
 
 export const ROLES = {
@@ -38,7 +38,7 @@ export const MOCK_USERS: Record<string, { id: string; name: string; email: strin
   kitchen_manager: { id: 'usr_km_01', name: 'Priya Sharma', email: 'priya@guesthousegn.in', organization: 'Gujarat Guest House, Gandhinagar' },
   plant_manager: { id: 'usr_pm_01', name: 'Rajesh Patel', email: 'rajesh@gujfoodproc.in', organization: 'Gujarat Food Processing Ltd.' },
   ngo_receiver: { id: 'usr_ngo_01', name: 'Meera Desai', email: 'meera@annapurnatrust.org', organization: 'Annapurna Food Trust' },
-  logistics_driver: { id: 'usr_ld_01', name: 'Amit Kumar', email: 'amit@foodlooplogistics.in', organization: 'FoodLoop Logistics' },
+  logistics_driver: { id: 'usr_ld_01', name: 'Amit Kumar', email: 'amit@surplusxlogistics.in', organization: 'SurplusX Logistics' },
   admin_auditor: { id: 'usr_aa_01', name: 'Dr. Kavita Joshi', email: 'kavita@mofpi.gov.in', organization: 'Ministry of Food Processing Industries' },
 };
 

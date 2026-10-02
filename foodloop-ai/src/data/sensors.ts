@@ -28,7 +28,7 @@ function generateHistory(
 }
 
 /**
- * Mock sensor data for FoodLoop AI
+ * Mock sensor data for SurplusX
  * 8 sensors monitoring cold storage, dry storage, and ambient conditions
  */
 export const sensors: Sensor[] = [

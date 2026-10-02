@@ -1,7 +1,7 @@
 import { Machine, DowntimeLog } from '@/types';
 
 /**
- * Mock machine data for FoodLoop AI
+ * Mock machine data for SurplusX
  * 8 food processing machines with realistic operational metrics
  */
 export const machines: Machine[] = [
@@ -128,7 +128,7 @@ export const machines: Machine[] = [
 ];
 
 /**
- * Mock downtime logs for FoodLoop AI machines
+ * Mock downtime logs for SurplusX machines
  * 8 recent downtime events with varied causes and impacts
  */
 export const downtimeLogs: DowntimeLog[] = [

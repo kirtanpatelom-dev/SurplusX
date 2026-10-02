@@ -70,7 +70,7 @@ export default function SurplusPage() {
       id: 'donor',
       lat: 23.22,
       lng: 72.64,
-      label: 'FoodLoop Central Kitchen',
+      label: 'SurplusX Central Kitchen',
       kind: 'donor' as const,
     };
     const rec = (receivers.data ?? []).slice(0, 8).map((r) => ({

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FoodLoop AI — Smart Food Waste Management",
+  title: "SurplusX — Smart Food Waste Management",
   description:
     "AI-powered food waste management and redistribution platform for institutional kitchens and food processing units.",
 };

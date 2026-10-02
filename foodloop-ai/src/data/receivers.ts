@@ -1,7 +1,7 @@
 import { Receiver } from '@/types';
 
 /**
- * Mock receiver data for FoodLoop AI
+ * Mock receiver data for SurplusX
  * 12 NGOs, shelters, and community kitchens around Gandhinagar/Ahmedabad
  */
 export const receivers: Receiver[] = [

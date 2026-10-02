@@ -84,7 +84,7 @@ export function Sidebar() {
             ${sidebarCollapsed ? 'opacity-0 w-0 overflow-hidden' : 'opacity-100'}
           `}
         >
-          FoodLoop AI
+          SurplusX
         </span>
       </div>
 

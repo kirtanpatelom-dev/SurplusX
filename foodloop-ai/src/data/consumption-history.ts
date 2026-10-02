@@ -1,7 +1,7 @@
 import { ConsumptionHistory } from '@/types';
 
 /**
- * Mock consumption history for FoodLoop AI
+ * Mock consumption history for SurplusX
  * 90 days of daily meal data for an institutional kitchen serving 200-400 people
  * Shows realistic patterns: lower weekends, some holiday dips, 5-15% waste
  * Date range: 2026-07-01 to 2026-09-28

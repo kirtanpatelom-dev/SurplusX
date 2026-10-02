@@ -1,7 +1,7 @@
 import { Vehicle } from '@/types';
 
 /**
- * Mock vehicle data for FoodLoop AI
+ * Mock vehicle data for SurplusX
  * 6 vehicles operating around Gandhinagar/Ahmedabad
  */
 export const vehicles: Vehicle[] = [

@@ -44,7 +44,7 @@ export const useSettingsStore = create<SettingsState>()(
         })),
     }),
     {
-      name: 'foodloop-settings',
+      name: 'surplusx-settings',
     }
   )
 );

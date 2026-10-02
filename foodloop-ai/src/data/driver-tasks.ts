@@ -4,7 +4,7 @@ export const driverTasks: DriverTask[] = [
   {
     id: 'TSK-001',
     type: 'pickup',
-    entityName: 'FoodLoop Central Kitchen',
+    entityName: 'SurplusX Central Kitchen',
     address: 'Sector 15, Gandhinagar, Gujarat 382015',
     location: { lat: 23.22, lng: 72.64 },
     scheduledTime: '2026-09-29T10:30:00',
@@ -33,7 +33,7 @@ export const driverTasks: DriverTask[] = [
   {
     id: 'TSK-003',
     type: 'pickup',
-    entityName: 'FoodLoop Central Kitchen',
+    entityName: 'SurplusX Central Kitchen',
     address: 'Sector 15, Gandhinagar, Gujarat 382015',
     location: { lat: 23.22, lng: 72.64 },
     scheduledTime: '2026-09-29T13:00:00',

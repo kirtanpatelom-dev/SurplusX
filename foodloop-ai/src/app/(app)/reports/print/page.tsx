@@ -24,7 +24,7 @@ export default function ReportPrintPage() {
         </button>
       </div>
       <header>
-        <h1 className="text-2xl font-bold">FoodLoop AI — ESG impact pack</h1>
+        <h1 className="text-2xl font-bold">SurplusX — ESG impact pack</h1>
         <p className="text-sm text-muted-foreground">Period: September 2026 · Gujarat Guest House + Gujarat Food Processing Ltd.</p>
       </header>
       {m && (

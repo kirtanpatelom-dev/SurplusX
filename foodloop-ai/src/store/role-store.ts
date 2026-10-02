@@ -47,7 +47,7 @@ export const useRoleStore = create<RoleState>()(
         }),
     }),
     {
-      name: 'foodloop-role',
+      name: 'surplusx-role',
     }
   )
 );

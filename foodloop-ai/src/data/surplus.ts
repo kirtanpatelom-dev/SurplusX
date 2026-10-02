@@ -1,7 +1,7 @@
 import { SurplusListing } from '@/types';
 
 /**
- * Mock surplus listings for FoodLoop AI
+ * Mock surplus listings for SurplusX
  * 10 listings at various stages of the redistribution pipeline
  * References real receivers from receivers.ts
  */
@@ -20,7 +20,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-29T12:00:00',
     status: 'matched',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     matchedReceiverId: 'RCV-001',
     matchedReceiverName: 'Annapurna Food Trust',
@@ -45,7 +45,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-29T14:00:00',
     status: 'accepted',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     matchedReceiverId: 'RCV-002',
     matchedReceiverName: 'Akshaya Patra Foundation',
@@ -71,7 +71,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-29T13:00:00',
     status: 'picked_up',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     matchedReceiverId: 'RCV-005',
     matchedReceiverName: 'Gandhinagar Community Kitchen',
@@ -98,7 +98,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-29T18:00:00',
     status: 'listed',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     createdAt: '2026-09-29T07:00:00',
     updatedAt: '2026-09-29T07:00:00',
@@ -120,7 +120,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-29T15:00:00',
     status: 'matched',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     matchedReceiverId: 'RCV-007',
     matchedReceiverName: 'Bal Seva Ashram',
@@ -145,7 +145,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-29T11:00:00',
     status: 'listed',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     createdAt: '2026-09-29T06:35:00',
     updatedAt: '2026-09-29T06:35:00',
@@ -167,7 +167,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-28T20:00:00',
     status: 'delivered',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     matchedReceiverId: 'RCV-006',
     matchedReceiverName: 'Ahmedabad Night Shelter',
@@ -195,7 +195,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-29T16:00:00',
     status: 'listed',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     createdAt: '2026-09-29T08:05:00',
     updatedAt: '2026-09-29T08:05:00',
@@ -217,7 +217,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-28T22:00:00',
     status: 'cancelled',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     matchedReceiverId: 'RCV-009',
     matchedReceiverName: 'Old Age Home Gandhinagar',
@@ -243,7 +243,7 @@ export const surplusListings: SurplusListing[] = [
     pickupWindowEnd: '2026-09-29T18:00:00',
     status: 'accepted',
     donorId: 'DON-001',
-    donorName: 'FoodLoop Central Kitchen',
+    donorName: 'SurplusX Central Kitchen',
     donorLocation: { lat: 23.2200, lng: 72.6400, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
     matchedReceiverId: 'RCV-012',
     matchedReceiverName: 'Sarvodaya Food Bank',

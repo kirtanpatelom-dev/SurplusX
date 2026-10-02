@@ -99,7 +99,7 @@ export default function NgoPage() {
         <div className="rounded-xl border border-border bg-card p-5 print:border-0">
           <h2 className="text-sm font-semibold">Receipt / impact certificate</h2>
           <p className="mt-2 text-sm">
-            Annapurna Food Trust confirms receipt of surplus food via FoodLoop AI. Meals equivalent this month: 36,840 (platform-wide, simulated). Certificate ID AFL-2026-09-GN.
+            Annapurna Food Trust confirms receipt of surplus food via SurplusX. Meals equivalent this month: 36,840 (platform-wide, simulated). Certificate ID AFL-2026-09-GN.
           </p>
         </div>
       </div>

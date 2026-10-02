@@ -206,7 +206,7 @@ export const mockApi = {
       pickupWindowEnd: input.pickupWindowEnd,
       status: 'listed',
       donorId: 'DON-001',
-      donorName: 'FoodLoop Central Kitchen',
+      donorName: 'SurplusX Central Kitchen',
       donorLocation: { lat: 23.22, lng: 72.64, address: 'Sector 15, Gandhinagar, Gujarat 382015' },
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),

@@ -49,7 +49,7 @@ export default function LoginPage() {
           <div className="rounded-lg bg-primary p-2">
             <Leaf className="h-5 w-5 text-primary-foreground" />
           </div>
-          <span className="text-xl font-bold text-foreground">FoodLoop AI</span>
+          <span className="text-xl font-bold text-foreground">SurplusX</span>
         </div>
       </header>
 
@@ -63,7 +63,7 @@ export default function LoginPage() {
             className="text-center mb-10"
           >
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
-              Welcome to FoodLoop AI
+              Welcome to SurplusX
             </h1>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               Select your role to continue as a demo user. No login required.

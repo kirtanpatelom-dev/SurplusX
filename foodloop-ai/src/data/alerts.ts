@@ -1,7 +1,7 @@
 import { Alert } from '@/types';
 
 /**
- * Mock alerts data for FoodLoop AI
+ * Mock alerts data for SurplusX
  * 30 alerts across all categories with mixed severities and read states
  * Timestamps are recent (late September 2026)
  */
